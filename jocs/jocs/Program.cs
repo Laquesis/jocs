@@ -30,8 +30,7 @@ namespace jocs
 
         private static void ajedrez()
         {
-            throw new NotImplementedException();
-        }
+            Console.WriteLine("Modifico ajedrez");        }
 
         private static void buscaminas()
         {
