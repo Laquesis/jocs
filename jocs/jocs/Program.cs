@@ -10,6 +10,32 @@ namespace jocs
     {
         static void Main(string[] args)
         {
+            string opcio;
+            opcio = Convert.ToString(Console.ReadLine());
+
+            switch (opcio)
+            {
+                case "buscaminas":
+                    buscaminas();
+                    break;
+                case "ajedrez":
+                    ajedrez();
+                    break;
+
+            }
+
+
+
+        }
+
+        private static void ajedrez()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void buscaminas()
+        {
+            throw new NotImplementedException();
         }
     }
 }
